@@ -1,0 +1,11 @@
+#textoPrincipal {
+    text-align: center;
+    font-family: var(--fuente-texto);
+    border-bottom: 2px solid var(--color-bordes);
+}
+
+.texto {
+    text-align: left;
+    font-family: var(--fuente-texto);
+    border-bottom: 2px solid var(--color-bordes);
+}

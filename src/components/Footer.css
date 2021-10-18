@@ -1,0 +1,24 @@
+.logos ul{
+    display:flex;
+    justify-content: center;
+}
+.Email{
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+.Share{
+    height: 20px;
+    width: 20px;
+}
+footer{
+    height: 60px;
+    background-color: var(--rosa-claro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+}
