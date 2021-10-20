@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 header {
   height: 60px;
   background-color: var(--rosa-claro);
@@ -34,18 +33,3 @@ header {
   color:var(--color-claro-buscador);
 }
 
-=======
-header{
-    height: 56px;
-    background-color: var(--rosa-claro);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#cajaBuscador{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
->>>>>>> 03789ef05d1fe10ca01e6669b9c8ddda0fba54f5

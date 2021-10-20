@@ -17,6 +17,10 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    flex-direction: center;
+    bottom: 0vh;
+    width: 100%;
 }
 ul{
     list-style-type: none;

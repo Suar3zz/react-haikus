@@ -1,0 +1,21 @@
+.ImagenTarjeta {
+    width: 100%;
+}
+.fotoDePerfilTarjeta{
+    width: 30px;
+    height: 30px;
+    border-radius: 500%;
+}
+.ContenedorTarjeta{
+    display: grid;
+    justify-content: center;
+}
+.cuerpoTarjeta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FotoYTitulo{
+    display: flex;
+    align-items: center;
+}
