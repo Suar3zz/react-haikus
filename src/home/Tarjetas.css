@@ -14,8 +14,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-style:solid;
+    border-top: none;
+    border-color:var(--color-bordes);
 }
 .FotoYTitulo{
     display: flex;
     align-items: center;
+}
+.IconoCompartirTarjeta{
+    color: grey;
+    margin-right: 10px;
 }

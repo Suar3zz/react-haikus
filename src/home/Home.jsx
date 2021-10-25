@@ -7,7 +7,13 @@ const Home = () => {
       <h4 className="H4">Colección</h4>
       <div id="contenedorTarjetas"></div>
       <Tarjetas
-        imagen="https://picsum.photos/seed/picsum/200/300"
+        imagen="https://picsum.photos/seed/picsum/300/500"
+        fotoDePerfil="https://www.ellitoral.com//um/fotos/310346_iorio.jpg"
+        nombreDeHaiku="Haiku"
+        IconoCompartir="/"
+      />
+      <Tarjetas
+        imagen="https://picsum.photos/seed/picsum/300/500"
         fotoDePerfil="https://www.ellitoral.com//um/fotos/310346_iorio.jpg"
         nombreDeHaiku="Haiku"
         IconoCompartir="/"

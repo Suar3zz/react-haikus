@@ -3,5 +3,6 @@
     border-bottom: 2px solid var(--color-bordes);
   }
 #contenedorTarjetas{
-    display: flex;
+    display: grid;
+    justify-content: center;
 }
