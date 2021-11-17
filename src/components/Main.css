@@ -3,9 +3,14 @@
     font-family: var(--fuente-texto);
     border-bottom: 2px solid var(--color-bordes);
 }
-
+h1{
+    color:black;
+}
 .texto {
     text-align: left;
     font-family: var(--fuente-texto);
     border-bottom: 2px solid var(--color-bordes);
+}
+.hipervinculoH1{
+    text-decoration: none;
 }

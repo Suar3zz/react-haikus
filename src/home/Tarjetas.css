@@ -26,3 +26,15 @@
     color: grey;
     margin-right: 10px;
 }
+.Haiku{
+    position: absolute;
+    color:white;
+    font-size: 32px;
+}
+.ImagenYHaiku{
+    position: relative;
+    display: inline-block;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+}

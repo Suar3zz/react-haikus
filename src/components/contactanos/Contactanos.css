@@ -1,0 +1,18 @@
+.IconosContacto {
+    display:flex;
+    justify-content:center;
+    font-size:32px;
+    color:var(--rosa-claro);
+    margin:1rem;
+    align-items:center;
+}
+.icono{
+    margin-right:1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#parrafoContac{
+    display: flex;
+    justify-content: center;
+}

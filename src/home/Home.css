@@ -4,5 +4,60 @@
   }
 #contenedorTarjetas{
     display: grid;
+    grid-template-columns: 1fr;
     justify-content: center;
+
 }
+
+@media (min-width: 600px) {
+  #contenedorTarjetas {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px 2px;
+  }
+}
+@media (min-width: 1000px) {
+  #contenedorTarjetas {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px 2px;
+  }
+}
+
+
+
+
+
+/* 
+.c1, .c2, .c3, .c4, .c5 {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .container{
+    width: 600px;
+    justify-content: center;
+    display: grid;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 800px;
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr; 
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr; 
+    gap: 10px 10px; 
+    grid-template-areas: 
+    "c1 c2 c3 c4 "
+    "c5 . . .  "
+    ". . . .  "
+    ". . . . "; 
+    
+  }
+.c1 { grid-area: c1; }
+.c2 { grid-area: c2; }
+.c3 { grid-area: c3; }
+.c4 { grid-area: c4; }
+.c5 { grid-area: c5; }
+
+} */
